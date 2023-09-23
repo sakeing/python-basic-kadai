@@ -9,7 +9,7 @@ while var < 50:
     elif 0 == var % num1:
         print('Fizz')
     elif 0 == var % num2:
-        print('Bizz')
+        print('Buzz')
     else:
         print(str(var))
     var += 1
