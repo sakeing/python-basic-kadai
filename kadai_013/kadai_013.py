@@ -1,5 +1,5 @@
 def calc_tax(money,tax):
     tax_included = money * ((tax / 100) + 1)
-    print(tax_included)
+    return tax_included
 
-calc_tax(100,10)
+print(str(calc_tax(100,10))+'円')
